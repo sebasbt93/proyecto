@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: beige;
+}
+.contenedor {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translate(0 -50%);
+}
+.cuadrado {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.cuadrado_1 {
+  background: green;
+
+}
+.cuadrado_2{
+  background: red;
+}
+.cuadrado_3 {
+  background: blue;
+}
+.cuadrado_4{
+  background: yellowgreen;
+}
